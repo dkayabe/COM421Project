@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 nav{
 	margin-top:-20px;
@@ -34,9 +34,47 @@ body{
 	margin-top: -10px;
 }
 
+.profile-image {
+	display: block;
+	width: 15%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imageGH {
+	display: block;
+	width: 10%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imageYT {
+	display: block;
+	width: 25%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a#address {
+	font-size: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+}
+
 h1#name {
 	position:relative;
 	font-size: 60px;
 	font-weight: 400;
 	color: white;
+}
+
+h2#subtitle {
+	margin-bottom: -10px;
 }
